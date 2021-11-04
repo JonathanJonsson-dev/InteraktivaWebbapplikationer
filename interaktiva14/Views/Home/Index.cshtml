@@ -19,8 +19,8 @@
                         <h3 id="number-of-dislikes-0">Number of Dislikes: @Model.Toplist[0].NumberOfDislikes</h3>
                         
                         <div class="likedislikebuttons">
-                            <button id="likebutton0" type="button" class="btn btn-success" onclick="LikeFunction('@Model.Toplist[0].imdbID', 0)">Like ♥</button>
-                            <button id="dislikebutton0" type="button" class="btn btn-danger" onclick="DislikeFunction('@Model.Toplist[0].imdbID', 0)">Dislike</button>
+                            <button id="likebutton0" type="button" class="btn btn-success" onclick="LikeFunction('@Model.Toplist[0].imdbID', '0')">Like ♥</button>
+                            <button id="dislikebutton0" type="button" class="btn btn-danger" onclick="DislikeFunction('@Model.Toplist[0].imdbID', '0')">Dislike</button>
                         </div>
                         
                         <div class="description">
@@ -72,8 +72,8 @@
                                 <h3 id="number-of-dislikes-@(i)">Number of Dislikes: @Model.Toplist[@i].NumberOfDislikes</h3>
                                 
                                 <div class="likedislikebuttons">
-                                    <button id="likebutton@(i)" type="button" class="btn btn-success" onclick="LikeFunction('@Model.Toplist[@i].imdbID', @(i))">Like ♥</button>
-                                    <button id="dislikebutton@(i)" type="button" class="btn btn-danger" onclick="DislikeFunction('@Model.Toplist[@i].imdbID', @(i))">Dislike</button>
+                                    <button id="likebutton@(i)" type="button" class="btn btn-success" onclick="LikeFunction('@Model.Toplist[@i].imdbID', '@(i)')">Like ♥</button>
+                                    <button id="dislikebutton@(i)" type="button" class="btn btn-danger" onclick="DislikeFunction('@Model.Toplist[@i].imdbID', '@(i)')">Dislike</button>
                                  </div>
 
                                 <div class="description">
