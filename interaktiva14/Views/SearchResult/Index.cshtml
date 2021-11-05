@@ -3,7 +3,7 @@
 
 <body class="subpage">
 	
-		<div id="page-wrapper">
+		<div id="page-wrapper"></div>
 			<!-- Content -->
 			@if (@Model.ErrorState == true)
 			{
@@ -24,7 +24,7 @@
 											<div class="row">	
 												@for (var i = 0; i < Model.Movies.Count; i++)
                             					{
-													<div class="col-4">
+													<div class="col-4 col-12-medium">
 														<!-- Feature #1 -->
 														<section>
 															<img class="bordered-feature-image" src=@Model.Movies[@i].Poster alt=@Model.Movies[@i].Title>
