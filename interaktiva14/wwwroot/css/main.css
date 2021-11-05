@@ -1839,6 +1839,11 @@ input[type="search"] {
 				line-height: 2em;
 			}
 
+			.bordered-feature-image {
+				width: 100%;
+			}
+
+
 			.quote-list li {
 				padding: 1em 0 1em 0;
 			}
@@ -2097,6 +2102,10 @@ input[type="search"] {
 			body, input, textarea, select {
 				font-size: 13pt;
 				line-height: 1.4em;
+			}
+
+			.bordered-feature-image {
+				width: 100%;
 			}
 
 		/* Multi-use */
